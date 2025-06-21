@@ -1,4 +1,3 @@
-//phathuynh195@gmail.com
 package com.example.buiduykien_2122110362;
 
 import android.content.Intent;
