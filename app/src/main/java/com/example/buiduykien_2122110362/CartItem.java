@@ -16,7 +16,7 @@ public class CartItem {
         this.quantity = quantity;
     }
 
-    // Getter và Setter
+  
     public String getProductId() { return productId; }
     public String getName() { return name; }
     public String getPrice() { return price; }
