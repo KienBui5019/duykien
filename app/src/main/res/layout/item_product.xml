@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/muangay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="Product Image"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Tên sản phẩm"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá sản phẩm"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái"
+        android:textSize="14sp" />
+
+    <!-- 3 nút trên 1 hàng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/xem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xem"
+             android:textSize="12sp"
+            android:backgroundTint="#D68640"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/muangay1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mua"
+            android:textSize="12sp"
+            android:backgroundTint="#D68640"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp" />
+
+        <ImageButton
+            android:id="@+id/themgiohang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#D68640"
+            android:src="@drawable/icgiohang"
+            android:contentDescription="Thêm giỏ hàng"
+            android:textSize="12sp"
+            android:background="#A0522D"
+            android:layout_marginStart="4dp"
+            android:padding="8dp" />
+    </LinearLayout>
+</LinearLayout>
